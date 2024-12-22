@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "date" : "2019",
+        "typeRealEstate": "ABC Corporation",
+        "category": "Luxury Home Development",
+        "commentOfClient": "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."
+    },
+    {
+        "id": 2,
+        "date" : "2020",
+        "typeRealEstate": "GreenTech Enterprises",
+        "category": "Retail Space",
+        "commentOfClient": "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."
+    },
+    {
+        "id": 3,
+        "date" : "2018",
+        "typeRealEstate": "ABC Corporation",
+        "category": "Luxury Home Development",
+        "commentOfClient": "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."
+    },
+    {
+        "id": 4,
+        "date" : "2024",
+        "typeRealEstate": "GreenTech Enterprises",
+        "category": "Retail Space",
+        "commentOfClient": "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."
+    },
+    {
+        "id": 5,
+        "date" : "2021",
+        "typeRealEstate": "ABC Corporation",
+        "category": "Luxury Home Development",
+        "commentOfClient": "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."
+    },
+    {
+        "id": 6,
+        "date" : "2015",
+        "typeRealEstate": "GreenTech Enterprises",
+        "category": "Retail Space",
+        "commentOfClient": "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."
+    }
+]

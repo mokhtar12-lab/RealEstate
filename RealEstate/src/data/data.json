@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "image" : "https://img.freepik.com/free-photo/glassclad-skyscrapers-central-mumbai-reflecting-sunset-hues-blue-hour_469504-15.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid" ,
+        "title": "Seaside Serenity Villa 1",
+        "description": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood",
+        "price": "550,000",
+        "typeBedrooms": "4-Bedrooms",
+        "typeBathroom": "3-Bathroom",
+        "typeProperty": "Villa"
+    },
+    {
+        "id":2,
+        "image" : "https://img.freepik.com/free-photo/modern-luxury-apartments-reflect-futuristic-urban-growth-generated-by-ai_188544-26162.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid" ,
+        "title": "Metropolitan Haven 2",
+        "description": "A chic and fully-furnished 2-bedroom apartment with panoramic city views",
+        "price": "550,000",
+        "typeBedrooms": "2-Bedrooms",
+        "typeBathroom": "2-Bathroom",
+        "typeProperty": "Villa"
+    },
+    {
+        "id":3,
+        "image" : "https://img.freepik.com/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-2865.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid" ,
+        "title": "Rustic Retreat Cottage 3",
+        "description": "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community",
+        "price": "550,000",
+        "typeBedrooms": "3-Bedrooms",
+        "typeBathroom": "3-Bathroom",
+        "typeProperty": "Villa"
+    },
+    {
+        "id":4,
+        "image" : "https://img.freepik.com/free-photo/modern-skyscrapers-with-glass-facade-boston_1268-15564.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid" ,
+        "title": "Seaside Serenity Villa 4",
+        "description": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood",
+        "price": "550,000",
+        "typeBedrooms": "4-Bedrooms",
+        "typeBathroom": "3-Bathroom",
+        "typeProperty": "Villa"
+    },
+    {
+        "id":5,
+        "image" : "https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid" ,
+        "title": "Metropolitan Haven 5",
+        "description": "A chic and fully-furnished 2-bedroom apartment with panoramic city views",
+        "price": "550,000",
+        "typeBedrooms": "2-Bedrooms",
+        "typeBathroom": "2-Bathroom",
+        "typeProperty": "Villa"
+    },
+    {
+        "id":6,
+        "image" : "https://img.freepik.com/free-photo/low-angle-shot-facade-white-modern-building-blue-clear-sky_181624-48219.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid" ,
+        "title": "Rustic Retreat Cottage 6",
+        "description": "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community",
+        "price": "550,000",
+        "typeBedrooms": "3-Bedrooms",
+        "typeBathroom": "3-Bathroom",
+        "typeProperty": "Villa"
+    }
+]

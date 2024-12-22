@@ -1,0 +1,298 @@
+.CardAskedQuestions{
+    width: 500px;
+    height: 346px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    border: solid 1px #262626;
+    background-color: #141414;
+    border-radius: 20px;
+    .Questions{
+        width: 412px;
+        margin: auto;
+        height: fit-content;
+        h1{
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+    .anser{
+        width: 412px;
+        margin: auto;
+        height: fit-content;
+        p{
+            font-size: 18px;
+            color: #999999;
+        }
+    }
+    .button-read-more{
+        margin: auto 0 auto 40px;
+        .btn-read-more {
+            width: 134px;
+            height: 60px;
+            border: solid 1px #262626;
+            border-radius: 20px;
+            background-color: #1A1A1A;
+            color: #ffffff;
+        }
+    }
+}
+
+
+@media (max-width: 428px){
+    .CardAskedQuestions{
+        width: 100%;
+        height: 346px;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        border: solid 1px #262626;
+        background-color: #141414;
+        border-radius: 20px;
+        .Questions{
+            width: 100%;
+            margin: auto;
+            height: fit-content;
+            padding-left: 10px;
+            h1{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .anser{
+            width: 90%;
+            margin: auto;
+            height: fit-content;
+            p{
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+        .button-read-more{
+            margin: auto 0 auto 40px;
+            .btn-read-more {
+                width: 134px;
+                height: 60px;
+                border: solid 1px #262626;
+                border-radius: 20px;
+                background-color: #1A1A1A;
+                color: #ffffff;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 429px) and (max-width: 568px){
+    .CardAskedQuestions{
+        width: 100%;
+        height: 346px;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        border: solid 1px #262626;
+        background-color: #141414;
+        border-radius: 20px;
+        .Questions{
+            width: 100%;
+            margin: auto;
+            height: fit-content;
+            padding-left: 10px;
+            h1{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .anser{
+            width: 90%;
+            margin: auto;
+            height: fit-content;
+            p{
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+        .button-read-more{
+            margin: auto 0 auto 40px;
+            .btn-read-more {
+                width: 134px;
+                height: 60px;
+                border: solid 1px #262626;
+                border-radius: 20px;
+                background-color: #1A1A1A;
+                color: #ffffff;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 569px) and (max-width: 767px) {
+    .CardAskedQuestions{
+        width: 100%;
+        height: 346px;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        border: solid 1px #262626;
+        background-color: #141414;
+        border-radius: 20px;
+        .Questions{
+            width: 100%;
+            margin: auto;
+            height: fit-content;
+            padding-left: 10px;
+            h1{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .anser{
+            width: 90%;
+            margin: auto;
+            height: fit-content;
+            p{
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+        .button-read-more{
+            margin: auto 0 auto 40px;
+            .btn-read-more {
+                width: 134px;
+                height: 60px;
+                border: solid 1px #262626;
+                border-radius: 20px;
+                background-color: #1A1A1A;
+                color: #ffffff;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .CardAskedQuestions{
+        width: 100%;
+        height: 346px;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        border: solid 1px #262626;
+        background-color: #141414;
+        border-radius: 20px;
+        .Questions{
+            width: 100%;
+            margin: auto;
+            height: fit-content;
+            padding-left: 10px;
+            h1{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .anser{
+            width: 90%;
+            margin: auto;
+            height: fit-content;
+            p{
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+        .button-read-more{
+            margin: auto 0 auto 40px;
+            .btn-read-more {
+                width: 134px;
+                height: 60px;
+                border: solid 1px #262626;
+                border-radius: 20px;
+                background-color: #1A1A1A;
+                color: #ffffff;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .CardAskedQuestions{
+        width: 100%;
+        height: 346px;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        border: solid 1px #262626;
+        background-color: #141414;
+        border-radius: 20px;
+        .Questions{
+            width: 100%;
+            margin: auto;
+            height: fit-content;
+            padding-left: 10px;
+            h1{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .anser{
+            width: 90%;
+            margin: auto;
+            height: fit-content;
+            p{
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+        .button-read-more{
+            margin: auto 0 auto 40px;
+            .btn-read-more {
+                width: 134px;
+                height: 60px;
+                border: solid 1px #262626;
+                border-radius: 20px;
+                background-color: #1A1A1A;
+                color: #ffffff;
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1194px){
+    .CardAskedQuestions{
+        width: 100%;
+        height: 346px;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        border: solid 1px #262626;
+        background-color: #141414;
+        border-radius: 20px;
+        .Questions{
+            width: 100%;
+            margin: auto;
+            height: fit-content;
+            padding-left: 10px;
+            h1{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .anser{
+            width: 90%;
+            margin: auto;
+            height: fit-content;
+            p{
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+        .button-read-more{
+            margin: auto 0 auto 40px;
+            .btn-read-more {
+                width: 134px;
+                height: 60px;
+                border: solid 1px #262626;
+                border-radius: 20px;
+                background-color: #1A1A1A;
+                color: #ffffff;
+            }
+        }
+    }
+
+}

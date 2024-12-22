@@ -1,0 +1,480 @@
+.cardOurValuesClients{
+    width: 95%;
+    height: 478px;
+    border: solid 1px #262626;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    .header-card{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        .info {
+            p{
+                font-size: 18px;
+                color: #999999;
+            }
+            h1{
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .body-card{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        .box{
+            width: 100%;
+            p{
+                font-size: 18px;
+                color: #999999;
+            }
+            h1{
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+        .line-y{
+            width: 1px;
+            height: 100%;
+            margin: auto;
+            background-color: #262626;
+        }
+    }
+
+    .footer-card{
+        width: 90%;
+        height: fit-content;
+        margin:0 auto;
+        border: solid 1px #262626;
+        border-radius: 20px;
+        padding: 20px;
+        p{
+            padding-bottom: 20px;
+            font-size: 18px;
+            color: #999999;
+        }
+        h1{
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    .cardOurValuesClients{
+        width: 100%;
+        height: 459px;
+        padding: 20px 0;
+        .header-card{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            .info {
+                width: 90%;
+                margin: 10px auto;
+                p{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 20px;
+                }
+            }
+            .button-card{
+                width: 90%;
+                margin: auto;
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+
+        .body-card{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            .box{
+                width: 80%;
+                margin: auto;
+                p{
+                    font-size: 12px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    
+        .footer-card{
+            width: 90%;
+            height: fit-content;
+            margin:0 auto;
+            border: solid 1px #262626;
+            border-radius: 20px;
+            padding: 20px;
+            p{
+                padding-bottom: 20px;
+                font-size: 14px;
+                color: #999999;
+            }
+            h1{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (min-width: 429px) and (max-width: 568px){
+    .cardOurValuesClients{
+        width: 90%;
+        margin: 0 auto;
+        height: 459px;
+        padding: 20px 0;
+        .header-card{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            .info {
+                width: 90%;
+                margin: 10px auto;
+                p{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 20px;
+                }
+            }
+            .button-card{
+                width: 90%;
+                margin: auto;
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+
+        .body-card{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            .box{
+                width: 80%;
+                margin: auto;
+                p{
+                    font-size: 12px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    
+        .footer-card{
+            width: 90%;
+            height: fit-content;
+            margin:0 auto;
+            border: solid 1px #262626;
+            border-radius: 20px;
+            padding: 20px;
+            p{
+                padding-bottom: 20px;
+                font-size: 14px;
+                color: #999999;
+            }
+            h1{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (min-width: 569px) and (max-width: 767px){
+    .cardOurValuesClients{
+        width: 90%;
+        margin: 0 auto;
+        height: 459px;
+        padding: 20px 0;
+        .header-card{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            .info {
+                width: 90%;
+                margin: 10px auto;
+                p{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 20px;
+                }
+            }
+            .button-card{
+                width: 90%;
+                margin: auto;
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+
+        .body-card{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            .box{
+                width: 80%;
+                margin: auto;
+                p{
+                    font-size: 12px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    
+        .footer-card{
+            width: 90%;
+            height: fit-content;
+            margin:0 auto;
+            border: solid 1px #262626;
+            border-radius: 20px;
+            padding: 20px;
+            p{
+                padding-bottom: 20px;
+                font-size: 14px;
+                color: #999999;
+            }
+            h1{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .cardOurValuesClients{
+        width: 90%;
+        margin: 0 auto;
+        height: 459px;
+        padding: 20px 0;
+        .header-card{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            .info {
+                width: 90%;
+                margin: 10px auto;
+                p{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 20px;
+                }
+            }
+            .button-card{
+                width: 90%;
+                margin: auto;
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+
+        .body-card{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            .box{
+                width: 80%;
+                margin: auto;
+                p{
+                    font-size: 12px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    
+        .footer-card{
+            width: 90%;
+            height: fit-content;
+            margin:0 auto;
+            border: solid 1px #262626;
+            border-radius: 20px;
+            padding: 20px;
+            p{
+                padding-bottom: 20px;
+                font-size: 14px;
+                color: #999999;
+            }
+            h1{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+    .cardOurValuesClients{
+        width: 90%;
+        margin: 0 auto;
+        height: 459px;
+        padding: 20px 0;
+        .header-card{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            .info {
+                width: 90%;
+                margin: 10px auto;
+                p{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 20px;
+                }
+            }
+            .button-card{
+                width: 90%;
+                margin: auto;
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+
+        .body-card{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            .box{
+                width: 80%;
+                margin: auto;
+                p{
+                    font-size: 12px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    
+        .footer-card{
+            width: 90%;
+            height: fit-content;
+            margin:0 auto;
+            border: solid 1px #262626;
+            border-radius: 20px;
+            padding: 20px;
+            p{
+                padding-bottom: 20px;
+                font-size: 14px;
+                color: #999999;
+            }
+            h1{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1194px){
+    .cardOurValuesClients{
+        width: 90%;
+        margin: 0 auto;
+        height: 459px;
+        padding: 20px 0;
+        .header-card{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            .info {
+                width: 90%;
+                margin: 10px auto;
+                p{
+                    font-size: 14px;
+                }
+                h1{
+                    font-size: 20px;
+                }
+            }
+            .button-card{
+                width: 90%;
+                margin: auto;
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+
+        .body-card{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            .box{
+                width: 80%;
+                margin: auto;
+                p{
+                    font-size: 12px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    
+        .footer-card{
+            width: 90%;
+            height: fit-content;
+            margin:0 auto;
+            border: solid 1px #262626;
+            border-radius: 20px;
+            padding: 20px;
+            p{
+                padding-bottom: 20px;
+                font-size: 14px;
+                color: #999999;
+            }
+            h1{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+}

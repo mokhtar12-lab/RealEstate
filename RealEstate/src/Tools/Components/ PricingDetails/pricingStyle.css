@@ -1,0 +1,182 @@
+.price-details{
+    .note{
+        display: flex;
+        height: 70px;
+        background: #1A1A1A;
+        border: solid 1px #262626;
+        border-radius: 10px;
+        padding: 10px 20px;
+        h1 {
+            font-size: 20px;
+            margin: auto;
+        }
+        .line-y{
+            display: block;
+            width: 1px;
+            height: 70%;
+            margin: auto;
+        }
+        .line-x{
+            display: none;
+        }
+        p{
+            width: 90%;
+            margin: auto;
+        }
+    }
+
+    .details{
+        display: flex;
+        justify-content: space-between;
+        .listing-price{
+            height: fit-content;
+            p{
+                font-size: 16px;
+                color: #999999;
+            }
+            h1{
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    .price-details{
+        .note{
+            display: flex;
+            height: fit-content;
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+            h1 {
+                font-size: 18px;
+                margin: 0 0 0 10px;
+            }
+            .line-y{
+                display: none;
+            }
+            .line-x{
+                display: block;
+                margin: 10px auto;
+            }
+            p{
+                width: 100%;
+                font-size: 14px;
+                margin: 0 0 10px 10px;
+                color: #999999;
+            }
+        }
+        .details{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .listing-price{
+                height: fit-content;
+                margin-bottom: 40px;
+                p{
+                    font-size: 14px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 429px) and (max-width: 568px) {
+    .price-details{
+        .note{
+            display: flex;
+            height: fit-content;
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+            h1 {
+                font-size: 18px;
+                margin: 0 0 0 10px;
+            }
+            .line-y{
+                display: none;
+            }
+            .line-x{
+                display: block;
+                margin: 10px auto;
+            }
+            p{
+                width: 100%;
+                font-size: 14px;
+                margin: 0 0 10px 10px;
+                color: #999999;
+            }
+        }
+        .details{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .listing-price{
+                height: fit-content;
+                margin-bottom: 40px;
+                p{
+                    font-size: 14px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 569px) and (max-width: 767px) {
+    .price-details{
+        .note{
+            display: flex;
+            height: fit-content;
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+            h1 {
+                font-size: 18px;
+                margin: 0 0 0 10px;
+            }
+            .line-y{
+                display: none;
+            }
+            .line-x{
+                display: block;
+                margin: 10px auto;
+            }
+            p{
+                width: 100%;
+                font-size: 14px;
+                margin: 0 0 10px 10px;
+                color: #999999;
+            }
+        }
+        .details{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .listing-price{
+                height: fit-content;
+                margin-bottom: 40px;
+                p{
+                    font-size: 14px;
+                    color: #999999;
+                }
+                h1{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "image": "https://img.freepik.com/free-photo/cute-smiling-young-man-with-bristle-looking-satisfied_176420-18989.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid",
+        "name": "Max Mitchell",
+        "jobTitle": "Founder"
+    },   
+    {
+        "id": "2",
+        "image": "https://img.freepik.com/free-photo/portrait-beautiful-young-woman-standing-grey-wall_231208-10760.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid",
+        "name": "Sarah Johnson",
+        "jobTitle": "Chief Real Estate Officer"
+    },
+    {
+        "id": "3",
+        "image": "https://img.freepik.com/free-photo/stylish-bearded-guy-posing-against-white-wall-with-glasses_176420-33034.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid",
+        "name": "David Brown",
+        "jobTitle": "Head of Property Management"
+    },
+    {
+        "id": "4",
+        "image": "https://img.freepik.com/free-photo/happy-young-man_1098-20869.jpg?ga=GA1.1.1838678278.1720537355&semt=ais_hybrid",
+        "name": "Michael Turner",
+        "jobTitle": "Legal Counsel"
+    }
+]
